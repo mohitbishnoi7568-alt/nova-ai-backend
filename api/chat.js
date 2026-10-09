@@ -1,4 +1,4 @@
-const MODEL = process.env.GEMINI_MODEL || "gemini-3.5-flash";
+const MODEL = process.env.GEMINI_MODEL || "gemini-3.5-flash-lite";
 const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || "*";
 
 function setCors(res) {
